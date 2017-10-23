@@ -14,38 +14,35 @@
 
 Manually install from the terminal:
 
-`mount /dev/cdrom /mnt`
-
-`cd /mnt`
-
-`./VBoxLinuxAdditions.run`
-
-`reboot`
+```
+mount /dev/cdrom /mnt
+cd /mnt
+./VBoxLinuxAdditions.run
+reboot
+```
 
 Delete the guest additions:
 
-`cd /opt/<VirtualBoxAdditions-x.x.xx>/`
-
-`sudo ./uninstall.sh`
+```
+cd /opt/<VirtualBoxAdditions-x.x.xx>/
+sudo ./uninstall.sh
+```
 
 #### 5. Install and Setup **GIT**
 
-`sudo apt-get install git`
-
-`$ git config --global user.name "John Doe"`
-
-`$ git config --global user.email johndoe@example.com`
-
-`git config --list`
+```
+sudo apt-get install git
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+git config --list
+```
 
 #### 6. Install VIM and set as default git commit editor:
 
-`sudo apt-get install vim`
-
-`git config --global core.editor "vim"`
-
-`export GIT_EDITOR=vim`
-
-
+```
+sudo apt-get install vim
+git config --global core.editor "vim"
+export GIT_EDITOR=vim
+```
 
 extra: [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
