@@ -28,6 +28,8 @@ cd /opt/<VirtualBoxAdditions-x.x.xx>/
 sudo ./uninstall.sh
 ```
 
+More info [here](https://askubuntu.com/a/22745)
+
 #### 5. Install and Setup **GIT**
 
 ```
