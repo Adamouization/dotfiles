@@ -23,3 +23,7 @@ rm <your_old_file_name>
 cd ~/
 vim .tmux.conf
 ```
+
+# New to tmux?
+
+Check [this](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) guide to help you get more familiar with tmux.
