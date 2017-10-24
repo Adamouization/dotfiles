@@ -1,12 +1,13 @@
 # Checklist when creating a new VM
 
 #### 1. Download VirtualBox:
-[VirtualBox for Windows host](download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-Win.exe)
+[VirtualBox for Windows host](https://www.virtualbox.org/wiki/Downloads)
 
 #### 2. Download your linux OS ISO:
 [Ubuntu](https://www.ubuntu.com/download/desktop)
+[Fedora 24](http://www.tejasbarot.com/2016/06/22/download-fedora-24-final-cd-dvd-iso-32-bit-x86_64/)
 
-#### 3. Install VirtualBox and create your VM using [this](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox) guide
+#### 3. Install VirtualBox and create your basic VM using [this](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox) guide
 
 #### 4. Install Guest additions:
 
