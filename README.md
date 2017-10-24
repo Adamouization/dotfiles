@@ -5,6 +5,7 @@
 
 #### 2. Download your linux OS ISO:
 [Ubuntu](https://www.ubuntu.com/download/desktop)
+
 [Fedora 24](http://www.tejasbarot.com/2016/06/22/download-fedora-24-final-cd-dvd-iso-32-bit-x86_64/)
 
 #### 3. Install VirtualBox and create your basic VM using [this](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox) guide
