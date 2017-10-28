@@ -49,7 +49,18 @@ git config --global core.editor "vim"
 export GIT_EDITOR=vim
 ```
 
-#### 7. Install [JetBrains](https://www.jetbrains.com/) IDEs
+
+#### 7. Install Python
+
+`sudo apt-get install python`
+
+You can also install a better version of the REPL:
+
+`sudo apt-get install ipython`
+
+To run it, type `ipython` instead of using `python`
+
+#### 8. Install [JetBrains](https://www.jetbrains.com/) IDEs
 
 Download the IDEs from here:
 
