@@ -48,3 +48,29 @@ sudo apt-get install vim
 git config --global core.editor "vim"
 export GIT_EDITOR=vim
 ```
+
+#### 7. Install [JetBrains](https://www.jetbrains.com/) IDEs
+
+Download the IDEs from here:
+
+* [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+
+* [WebStorm](https://www.jetbrains.com/webstorm/download/#section=linux)
+
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=linux)
+
+Move the `.tar.gz` file from the Download directory to the directory where you wish to install. I usually install my IDEs in my ~/Applications directory:
+
+`mv pycharm-professional-201X.X.X.tar.gz ~/Applications`
+
+Untar the file and start running the application:
+
+```
+tar -xvzf pycharm-professional-201X.X.X.tar.gz
+cd pycharm-201X.X.X/bin
+sh pycharm.sh &
+```
+
+Repeat this process for each `.tar.gz` file you downloaded.
+
+More info [here](https://www.lifewire.com/how-to-install-the-pycharm-python-ide-in-linux-4091033)
