@@ -60,7 +60,16 @@ You can also install a better version of the REPL:
 
 To run it, type `ipython` instead of using `python`
 
-#### 8. Install [JetBrains](https://www.jetbrains.com/) IDEs
+
+#### 8. Install Java
+
+```
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
+```
+
+
+#### 9. Install [JetBrains](https://www.jetbrains.com/) IDEs
 
 Download the IDEs from here:
 
