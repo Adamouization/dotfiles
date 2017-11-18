@@ -113,6 +113,8 @@ Repeat this process for each `.tar.gz` file you downloaded.
 
 More info [here](https://www.lifewire.com/how-to-install-the-pycharm-python-ide-in-linux-4091033)
 
+Once the installation is finished, you can delete the `.tar.gz` file: `rm -rf pycharm-professional-201X.X.X.tar.gz`
+
 
 #### 11. Install [TMUX](https://github.com/tmux/tmux/wiki)
 
