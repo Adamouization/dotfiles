@@ -46,8 +46,8 @@ Do this step after having installed the guest additions:
 
 ```
 sudo apt-get install git
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name "Adamouization"
+$ git config --global user.email a***5@b**h.ac.uk
 git config --list
 ```
 
