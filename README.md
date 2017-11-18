@@ -59,6 +59,7 @@ git config --global core.editor "vim"
 export GIT_EDITOR=vim
 ```
 
+Place the `.vimrc` file in your home directory to have VIM ready to use with your configurations
 
 #### 8. Install Python
 
