@@ -32,7 +32,17 @@ sudo ./uninstall.sh
 
 More info [here](https://askubuntu.com/a/22745)
 
-#### 5. Install and Setup **GIT**
+#### 5. Enable bi-directional shared clipboard
+
+Do this step after having installed the guest additions:
+
+* enable Devices > Shared Clipboard > Bidirectional
+
+* run this this command: `sudo apt-get install virtualbox-guest-dkms`
+
+* reboot the vm
+
+#### 6. Install and Setup **GIT**
 
 ```
 sudo apt-get install git
@@ -41,7 +51,7 @@ $ git config --global user.email johndoe@example.com
 git config --list
 ```
 
-#### 6. Install VIM and set as default git commit editor:
+#### 7. Install VIM and set as default git commit editor:
 
 ```
 sudo apt-get install vim
@@ -50,7 +60,7 @@ export GIT_EDITOR=vim
 ```
 
 
-#### 7. Install Python
+#### 8. Install Python
 
 `sudo apt-get install python`
 
@@ -61,7 +71,7 @@ You can also install a better version of the REPL:
 To run it, type `ipython` instead of using `python`
 
 
-#### 8. Install Java
+#### 9. Install Java
 
 ```
 sudo apt-get install default-jre
@@ -69,7 +79,7 @@ sudo apt-get install default-jdk
 ```
 
 
-#### 9. Install [JetBrains](https://www.jetbrains.com/) IDEs
+#### 10. Install [JetBrains](https://www.jetbrains.com/) IDEs
 
 Download the IDEs from here:
 
