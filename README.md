@@ -3,12 +3,15 @@
 #### 1. Download VirtualBox:
 [VirtualBox for Windows host](https://www.virtualbox.org/wiki/Downloads)
 
+
 #### 2. Download your linux OS ISO:
 [Ubuntu](https://www.ubuntu.com/download/desktop)
 
 [Fedora 24](http://www.tejasbarot.com/2016/06/22/download-fedora-24-final-cd-dvd-iso-32-bit-x86_64/)
 
+
 #### 3. Install VirtualBox and create your basic VM using [this](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox) guide
+
 
 #### 4. Install Guest additions:
 
@@ -32,6 +35,7 @@ sudo ./uninstall.sh
 
 More info [here](https://askubuntu.com/a/22745)
 
+
 #### 5. Enable bi-directional shared clipboard
 
 Do this step after having installed the guest additions:
@@ -42,6 +46,7 @@ Do this step after having installed the guest additions:
 
 * reboot the vm
 
+
 #### 6. Install and Setup **GIT**
 
 ```
@@ -51,6 +56,7 @@ $ git config --global user.email a***5@b**h.ac.uk
 git config --list
 ```
 
+
 #### 7. Install VIM and set as default git commit editor:
 
 ```
@@ -59,7 +65,8 @@ git config --global core.editor "vim"
 export GIT_EDITOR=vim
 ```
 
-Place the `.vimrc` file in your home directory to have VIM ready to use with your configurations
+Add the VIM configuration [file](https://github.com/Adamouization/vm-configurations/blob/master/vim_configuration/.vimrc) to the home directory: `cp /home/ajaamour/Projects/VmConfigurations/vim_configuration/.vimrc ~`
+
 
 #### 8. Install Python
 
@@ -105,3 +112,18 @@ sh pycharm.sh &
 Repeat this process for each `.tar.gz` file you downloaded.
 
 More info [here](https://www.lifewire.com/how-to-install-the-pycharm-python-ide-in-linux-4091033)
+
+
+#### 11. Install [TMUX](https://github.com/tmux/tmux/wiki)
+
+`sudo apt-get install tmux`
+
+Move the `.tmux.conf` [file](https://github.com/Adamouization/vm-configurations/blob/master/tmux_configuration/tmux.conf) to the home directory for custom settings: `cp /home/ajaamour/Projects/VmConfigurations/tmux_configuration/.tmux.conf ~`
+
+Use [this]() script to automatically launch tmux with vertically split windows. You'll first need to copy the bash script to your desired location, then give the appropriate permissions. Then you can run it any time:
+
+```
+cp /home/ajaamour/Projects/VmConfigurations/bash_scripts/tmux_setup ~
+chmod +x tmux_setup.sh
+./tmux_setup.sh
+```
