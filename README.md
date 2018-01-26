@@ -58,10 +58,9 @@ git config --list
 ```
 
 Install [tig](https://github.com/jonas/tig), a text-mode interface for git:
-```
-sudo apt-get tig
-sudo dnf install tig
-```
+`sudo apt-get tig`
+or
+`sudo dnf install tig`
 
 
 #### 7. Install VIM and set as default git commit editor:
