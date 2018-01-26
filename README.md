@@ -49,11 +49,18 @@ Do this step after having installed the guest additions:
 
 #### 6. Install and Setup **GIT**
 
+Install git:
 ```
 sudo apt-get install git
 $ git config --global user.name "Adamouization"
 $ git config --global user.email a***5@b**h.ac.uk
 git config --list
+```
+
+Install [tig](https://github.com/jonas/tig), a text-mode interface for git:
+```
+sudo apt-get tig
+sudo dnf install tig
 ```
 
 
