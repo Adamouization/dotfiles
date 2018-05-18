@@ -23,6 +23,6 @@ tmux send-keys -t 1 "ls -l $PROJECTS_DIR" C-m
 tmux clock-mode -t 2
 
 # execute top command with a delay of 1 second
-tmux send-keys -t 3 "top d 1" C-m
+tmux send-keys -t 3 "htop -d 3" C-m
 
 tmux -2 attach-session -d
