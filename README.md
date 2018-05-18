@@ -135,3 +135,9 @@ cp /home/ajaamour/Projects/VmConfigurations/bash_scripts/tmux_setup ~
 chmod +x tmux_setup.sh
 ./tmux_setup.sh
 ```
+
+The script opens a pane with `htop` instead of `top`, so be sure to have it installed first (otherwise change the command in the script from `top` to `htop`): 
+
+```
+sudo apt-get install htop
+```
