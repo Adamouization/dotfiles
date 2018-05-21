@@ -103,15 +103,14 @@ Download the IDEs from here:
 
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=linux)
 
-Move the `.tar.gz` file from the Download directory to the directory where you wish to install. I usually install my IDEs in my ~/Applications directory:
+Untar the `.tar.gz` file directly from the `~/Download` directory to the directory where you wish to install e.g. in your `~/Applications` directory (must support executables), otherwise the recommended installation location according to the filesystem hierarchy standard (FHS) is `/opt`:
 
-`mv pycharm-professional-201X.X.X.tar.gz ~/Applications`
+`sudo tar -xvfz pycharm-*.tar.gz -C /opt/`
 
-Untar the file and start running the application:
+Start running the application by going to the `bin` directory and running `pycharm.sh`:
 
 ```
-tar -xvzf pycharm-professional-201X.X.X.tar.gz
-cd pycharm-201X.X.X/bin
+cd /opt/pycharm-*/bin
 sh pycharm.sh &
 ```
 
@@ -119,7 +118,7 @@ Repeat this process for each `.tar.gz` file you downloaded.
 
 More info [here](https://www.lifewire.com/how-to-install-the-pycharm-python-ide-in-linux-4091033)
 
-Once the installation is finished, you can delete the `.tar.gz` file: `rm -rf pycharm-professional-201X.X.X.tar.gz`
+Once the installation is finished, you can delete the `.tar.gz` file: `rm -rf pycharm-*.tar.gz`
 
 
 #### 11. Install [TMUX](https://github.com/tmux/tmux/wiki)
