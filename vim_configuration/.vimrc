@@ -1,3 +1,6 @@
+" My VIM configuration
+" Adam Jaamour
+
 " set character encoding
 set encoding=utf-8
 
