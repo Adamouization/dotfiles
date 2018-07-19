@@ -53,7 +53,7 @@ Install git:
 ```
 sudo apt-get install git
 $ git config --global user.name "Adamouization"
-$ git config --global user.email a***5@b**h.ac.uk
+$ git config --global user.email xxx@xxx.com
 git config --list
 ```
 
