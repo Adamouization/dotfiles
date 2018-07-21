@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/Applications/pycharm-2017.2.4/bin/
+cd /opt/pycharm-X.X.X/bin/
 sh pycharm.sh &
 echo "starting PyCharm"
