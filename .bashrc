@@ -1,5 +1,7 @@
 # .bashrc
 
+# Adam Jaamour .bashrc
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
@@ -13,4 +15,5 @@ export http_proxy=
 export https_proxy=
 
 # aliases
-alias ls='ls -CFl --color'
+alias ls='ls -CFl --color=always'
+alias ls -a='ls -CFla --color=always'
