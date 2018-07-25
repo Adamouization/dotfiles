@@ -13,4 +13,4 @@ export http_proxy=
 export https_proxy=
 
 # aliases
-alias ls='ls -l --color'
+alias ls='ls -CFl --color'
