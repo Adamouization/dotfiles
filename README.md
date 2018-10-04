@@ -1,4 +1,4 @@
-# Checklist when creating a new VM
+# New Linux VM in VirtualBox **Checklist**
 
 #### 1. Download VirtualBox:
 [VirtualBox for Windows host](https://www.virtualbox.org/wiki/Downloads)
@@ -13,27 +13,29 @@
 #### 3. Install VirtualBox and create your basic VM using [this](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox) guide
 
 
-#### 4. Install Guest additions:
+#### 4. Enable 3D acceleration and install Guest additions:
 
-`sudo apt-get install virtualbox-guest-additions-iso`
+* Open a new terminal window and type `/usr/lib/nux/unity_support_test -p`. The last line should say that Unity 3D is not supported: "No". It should say yes to allow 3D acceleration, which will boost the VM's graphic abilities.
 
-Manually install from the terminal:
+* Install tools for compiling kernel modules before installing the Guest Additions: `sudo apt update && sudo apt dist-upgrade`
 
-```
-mount /dev/cdrom /mnt
-cd /mnt
-./VBoxLinuxAdditions.run
-reboot
-```
+* Reboot
 
-Delete the guest additions:
+* Install required packages for building the kernel modules: `sudo apt install build-essential module-assistant dkms`
 
-```
-cd /opt/<VirtualBoxAdditions-x.x.xx>/
-sudo ./uninstall.sh
-```
+* Prepare the system to build kernel modules: `sudo m-a prepare`
 
-More info [here](https://askubuntu.com/a/22745)
+* The Guess Additions can now be installed. In the VirtualBox menu, 'Select Devices' > 'Insert Guest Additions CD image'. Then click 'Run' when prompted.
+
+![screenshot insert guest additions](https://i.imgur.com/zzIgA8K.png)
+
+* Shut the VM off
+
+* In the VM display settings, allocate at least 3/4 of video memory, and enable 3D acceleration:
+
+![screenshot 3D acceleration vm settings](https://i.imgur.com/kZXXwLO.png)
+
+* Restart your VM. A massive graphic speed improvement should be noticed. Run `/usr/lib/nux/unity_support_test -p` again to see that Unity 3D is now supported: "Yes".
 
 
 #### 5. Enable bi-directional shared clipboard
