@@ -1,6 +1,7 @@
 #!/bin/bash
-# bash file to activate my python virtual environment
-# usage: 'source work_environment.sh'
+
+# bash file to activate a python virtual environment
+# usage from command line: '$ source work_environment.sh'
 
 ENVIRONMENT_NAME=<your_project_name>
 PROJECT_NAME=$ENVIRONMENT_NAME

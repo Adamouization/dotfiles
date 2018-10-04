@@ -1,5 +1,7 @@
 #!/bin/sh 
 
+# Script used to open a new tmux window with predefined panes
+
 PROJECTS_DIR=~/Projects
 
 tmux new-session -s "Main tmux session" -d

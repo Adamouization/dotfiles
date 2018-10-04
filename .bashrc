@@ -1,6 +1,5 @@
 # .bashrc
-
-# Adam Jaamour .bashrc
+# Adam Jaamour
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
