@@ -12,8 +12,6 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Define aliases
 # General
-alias ls='ls -CFl'
-alias ls -a='ls -CFla'
 alias cd..='cd ../;pwd'                         # Go back 1 directory level (for fast typers)
 alias cd1='cd ../;pwd'                       	# Go back 2 directory levels
 alias cd2='cd ../../;pwd'                       # Go back 2 directory levels
@@ -29,6 +27,8 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gc='git commit'
 alias gl='git log'
+alias gps='git push'
+alias gpl='git pull'
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
