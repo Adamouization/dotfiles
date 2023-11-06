@@ -29,6 +29,7 @@ alias gc='git commit'
 alias gl='git log'
 alias gps='git push'
 alias gpl='git pull'
+alias grhh='git reset HEAD --hard'
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
